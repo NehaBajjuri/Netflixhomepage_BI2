@@ -15,7 +15,9 @@ body{
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
+    border-radius: 9px;
 }
+
 .nav
 {
     padding-top: 5px;
@@ -29,7 +31,9 @@ body{
 }
 select{
     margin-left:70%;
-    padding: 9px;
+    
+    padding: 9px ;
+    border-radius: 5px;
 }
 .content
 {
@@ -45,4 +49,36 @@ select{
 }
 .content h2{
     font-size: 30px;
+}
+.class
+{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+
+}
+.mail input{
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    size: 2em;
+    width: 70%;
+    margin: 1.5rem 0 0;
+    background-color: transparent;
+    border: 0.2px solid #fff;
+    
+    border-radius: 6px;
+    box-shadow:0 0 2px #ffffffdb;
+}
+
+.mail a{
+    height: fit-content;
+    background-color: #e50914;
+    color: #fff;
+    padding: 11px 10px;
+    text-decoration: none;
+    border-radius: 6px;
 }
