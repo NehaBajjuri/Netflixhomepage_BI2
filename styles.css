@@ -1,5 +1,7 @@
 body{
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:rgba(0,0,0,0.5) url('netflixhomepage.jpg');
+    background-blend-mode: darken;
 }
 .logo
 {
@@ -28,4 +30,19 @@ body{
 select{
     margin-left:70%;
     padding: 9px;
+}
+.content
+{
+    color: #fff;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 30%;
+
+}
+.content h1{
+    font-size: 50px;
+
+}
+.content h2{
+    font-size: 30px;
 }
